@@ -1,0 +1,88 @@
+@font-face {
+    font-family:mat;
+    src: url(../font/matrix.ttf);
+}
+/* Styling the Body */
+body{
+    background:url('../img/mor.png')center/contain no-repeat,
+    url('../img/mat01.gif')center/cover no-repeat;
+    text-align:center;
+    height:100vh;
+    margin:0;
+    padding:0;
+    position:relative;
+
+    
+}
+/* bodystyling End */
+/* Div(title) Styling */
+div{
+    position:absolute;
+    left:43.5vw;
+    bottom:25vh;
+    text-align:center;
+    margin:0;
+    padding:0;
+   
+}
+
+h1,h2,h5{
+margin:0;
+padding:0;
+font-family:mat;
+
+color:rgb(46, 235, 109);
+}
+h5{
+    letter-spacing:1px;
+    font-size:22px;
+}
+b{
+    font-size:72px;
+}
+h1{
+    font-size:50px;
+    letter-spacing:10px;
+}
+h2{
+    font-size:18px;
+    word-spacing:32px;
+}
+/* Div End */
+/* Link(Choises) Styling */
+a{
+   
+    color:white;
+    font-family:mat;
+    font-size:28px;
+    text-decoration-line: none;
+    margin:0;
+    width:80px;
+    height:40px;
+    border-radius:45%;
+
+}
+body a:nth-child(2){
+background:url('../img/red.jpg')center/cover no-repeat;
+position:absolute;
+bottom:12.5vh;
+left:30vw;
+box-shadow:10px 10px 10px red;
+}
+body a:nth-child(3){
+    background:url('../img/bluem.jpg')center/cover no-repeat;
+    position:absolute;
+    bottom:12vh;
+    right:30vw;
+    box-shadow:10px 10px 10px  blue;
+}
+/*making some Hover Efect */
+.red:hover{
+    background:url('../img/redchoise.gif')center/cover no-repeat;
+    box-shadow:-50px -50px 50px 50px rgb(248, 86, 86);
+}
+.blue:hover{
+    background:url('../img/bluechoise.gif')center/cover no-repeat;
+    box-shadow:-50px -50px 50px 50px rgb(86, 124, 248);
+}
+/* Linkstyling End */

@@ -1,0 +1,100 @@
+@font-face {
+    font-family:mat;
+    src: url(../font/matrix.ttf);
+}
+/* body styling */
+body{
+    background:url('../img/git.gif')center/cover no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow-y: hidden;
+
+}
+/* Global */
+section{
+    height:100vh;
+    margin:0;
+    padding:50px 0 0 0;
+    position:relative;
+}
+a{
+    text-decoration-line: none;
+    color:rgb(255, 65, 65);
+    font-family:mat;
+    font-size:22px;
+
+}
+h2,h3{
+    margin-top:30px;
+    color:rgb(243, 235, 235);
+    font-family:mat;
+    font-size:30px;
+}
+img{
+    width:50vw;
+    max-height:60vh;
+    box-shadow:10px 10px 10px rgba(255, 255, 255, 0.719);
+}
+/* Global Styling End */
+/* Nav styling */
+nav{
+    border-bottom:2px solid white;
+    display:block;
+    background:rgba(119, 119, 119, 0.328);
+    margin-top:0;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius:30%;
+    width:100vw;
+     height:10vh;
+    position:fixed;
+    z-index:30;
+    
+}
+nav>a{
+
+text-shadow:7px 7px 7px red;
+color:white;
+border-bottom-left-radius:30%;
+border-bottom-right-radius:10%;
+position:absolute;
+top:20px;
+left:10px;
+}
+nav>h3{
+ text-shadow:2px 2px 2px white;
+ padding-top:0;  
+ margin-top:20px;
+}
+/* Nav styling End */
+/* Aside Styling */
+aside{
+    border-top-right-radius: 20%;
+    border-bottom-right-radius:80%;
+    border:2px solid white;
+    height:100vh;
+    width:10vw;
+    z-index:10;
+    margin:10vh 0 0 0;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(136, 135, 135, 0.322);
+}
+
+ul{
+    list-style:none;
+    margin-top:30px;
+    margin-left:0;
+    padding-left:0;
+}
+ul>li{
+    margin:50px 0;
+    border-bottom:2px dashed rgba(255, 255, 255, 0.445);
+}
+ul>li>a{
+    font-size:30px;
+}
+/* Aside styling End */
+/* site Styling End */

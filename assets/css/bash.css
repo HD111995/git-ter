@@ -1,0 +1,91 @@
+@font-face {
+    font-family:mat;
+    src: url(../font/matrix.ttf);
+}
+/* body styling */
+body{
+    background:url('../img/bash/asnq.gif')center/cover no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow-y: hidden;
+
+}
+/* Global */
+section{
+    height:100vh;
+    margin:0;
+    padding:50px 0 0 0;
+    position:relative;
+}
+a{
+    text-decoration-line: none;
+    color:rgb(46, 235, 109);
+    font-family:mat;
+    font-size:22px;
+
+}
+h2,h3{
+    margin-top:30px;
+    color:rgb(255, 255, 255);
+    font-family:mat;
+    font-size:30px;
+}
+img{
+    width:60vw;
+    max-height:70vh;
+}
+/* Global Styling End */
+/* Nav styling */
+nav{
+    display:block;
+    background:rgba(0, 0, 0, 0.534);
+    margin-top:0;
+    
+    width:100vw;
+     height:10vh;
+    position:fixed;
+    z-index:30;
+    
+}
+nav>a{
+margin-right:80vw;
+padding-top:30px;
+position:absolute;
+top:0px;
+left:10px;
+
+}
+nav>h3{
+ padding-top:0;  
+ margin-top:10px;
+}
+/* Nav styling End */
+/* Aside Styling */
+aside{
+    height:100vh;
+    width:10vw;
+    z-index:10;
+    margin:10vh 0 0 0;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.534);
+}
+
+ul{
+    list-style:none;
+    margin-top:30px;
+    margin-left:0;
+    padding-left:0;
+}
+ul>li{
+    margin:50px 0;
+    border-bottom:2px dashed rgba(255, 255, 255, 0.445);
+}
+ul>li>a{
+    font-size:30px;
+}
+/* Aside styling End */
+/* site Styling End */
